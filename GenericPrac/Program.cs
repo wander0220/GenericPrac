@@ -21,6 +21,7 @@ namespace GenericPrac
 
         static void Main(string[] args)
         {
+            //실행시점에 타입이 바뀐다.  컴파일 시점은 타입이 굳어져버린다.
             Wanted<string> wantedString = new Wanted<string>("String");
             Wanted<int> wantedInt = new Wanted<int>(920116);
             Wanted<double> wantedDouble = new Wanted<double>(52.273);
